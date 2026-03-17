@@ -5,11 +5,12 @@ title = 'Home'
 
 # Module Builder
 
-Module Builder is a Drupal module which creates code for Drupal modules. Module
-Builder provides an interface in your Drupal site's admin area, which guides you
-through a series of forms to set the components for your module and their
-options, and then write the code files. You can write a new module from scratch,
-or add components to an existing module.
+[Module Builder](https://www.drupal.org/project/module_builder) is a Drupal
+module which creates code for Drupal modules. Module Builder provides an
+interface in your Drupal site's admin area, which guides you through a series of
+forms to set the components for your module and their options, and then write
+the code files. You can write a new module from scratch, or add components to an
+existing module.
 
 The options for your module are stored in Drupal configuration, as a [config
 entity](https://www.drupal.org/docs/drupal-apis/entity-api/configuration-entity),
