@@ -12,6 +12,10 @@ sectionPagesMenu = 'main'
 [params]
   custom_css = ["styles.css"]
   BookSection = 'sections'
+
+  BookLogo = 'logo.png'
+  BookFavicon = 'logo.png'
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
