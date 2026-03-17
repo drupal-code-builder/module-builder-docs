@@ -1,0 +1,14 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-uk'
+title = 'Module Builder'
+theme = 'hugo-book'
+sectionPagesMenu = 'main'
+
+
+[params]
+  custom_css = ["styles.css"]
+  BookSection = 'sections'
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
