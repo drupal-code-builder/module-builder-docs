@@ -10,16 +10,16 @@ Module Builder is a Drupal module, and [is installed like any other module](http
 
 1. Install Module Builder using Composer:
 
-```
-composer require drupal/module_builder
-```
+   ```
+   composer require drupal/module_builder
+   ```
 
 2. Enable the module in the UI on the Extend page, or with Drush.
 
 3. Go to Administration › Configuration › Development › Module Builder › Analyse
    code.
 
-<img src="screenshot-analysis-form.png" width="400px">
+   <img src="screenshot-analysis-form.png" width="400px">
 
 4. Click the 'Update code analysis' button.
 
