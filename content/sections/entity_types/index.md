@@ -19,7 +19,7 @@ types.
 1. In the Content entity types form section, click 'Add Content entity type'.
    This adds a form section for the entity type.
 
-  <img src="entities-content-basics.png" width="400px">
+   <img src="entities-content-basics.png" width="400px">
 
 2. Enter the machine ID of the entity type. This will automatically fill in  the
    entity type label and class name, but you can change these to something

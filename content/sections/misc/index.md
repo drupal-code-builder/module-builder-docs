@@ -23,7 +23,7 @@ the service container](https://www.drupal.org/docs/drupal-apis/services-and-depe
 
 1. Click 'Add a services item'. This adds a form section for the service.
 
-  <img src="misc-services.png" width="400px">
+   <img src="misc-services.png" width="400px">
 
 2. Optionally, select a service type. This adds a [service
    tag](https://www.drupal.org/docs/drupal-apis/services-and-dependency-injection/service-tags)
@@ -56,7 +56,7 @@ code, and listen to with subscribers.
 
 1. Click 'Add an events item'. This adds a new row to the table.
 
-  <img src="misc-events.png" width="400px">
+   <img src="misc-events.png" width="400px">
 
 2. Enter a name for the event. This should be a string in snake case. The
    generated code will automatically add the name of the module as a prefix.
@@ -74,7 +74,7 @@ module to control which users have access to particular functions or pages.
 
 1. Click 'Add a permissions item'. This adds a form section for the permission.
 
-  <img src="misc-permissions.png" width="400px">
+   <img src="misc-permissions.png" width="400px">
 
 2. Enter the machine name for the permission. This is the string that code that
    checks for access will use.
@@ -104,7 +104,7 @@ library can have one or more of both types of file.
 
 1. Click 'Add a Libraries item'. This adds a form section for the library.
 
-  <img src="misc-libraries.png" width="400px">
+   <img src="misc-libraries.png" width="400px">
 
 2. Enter the machine name for the library.
 3. The version number of a library should be incremented whenever its asset
@@ -112,16 +112,16 @@ library can have one or more of both types of file.
 4. Click 'Add a CSS file item' to add a stylesheet file. This adds a form
    section.
 
-  <img src="misc-libraries-css.png" width="400px">
+   <img src="misc-libraries-css.png" width="400px">
 
-  1. Enter the filename.
-  2. Select the stylesheet type.
+   1. Enter the filename.
+   2. Select the stylesheet type.
 
 5. Click 'Add a JS file item' to add a JavaScript file. This adds a form section.
 
-  <img src="misc-libraries-js.png" width="400px">
+   <img src="misc-libraries-js.png" width="400px">
 
-  1. Enter the filename.
+   1. Enter the filename.
 
 6. Enter any dependencies the library has.
 
@@ -132,7 +132,7 @@ site. It can be extended with custom commands.
 
 1. Click 'Add a Drush commands item'. This adds a form section for the command.
 
-  <img src="misc-drush.png" width="400px">
+   <img src="misc-drush.png" width="400px">
 
 2. Enter the command name. This is the string that is typed to execute the
    command.

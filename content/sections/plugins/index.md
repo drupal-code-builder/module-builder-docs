@@ -16,12 +16,12 @@ The plugins section of the form lets you add plugins.
    filter the autocomplete dropdown. You can click on the documentation link for
    a plugin type to read more about it on the Drupal API site.
 
-  <img src="plugins-plugin-id-filter.png" width="400px">
+   <img src="plugins-plugin-id-filter.png" width="400px">
 
 2. Select one of the plugin types.
 3. Click 'Add a plugins item'. This adds a form section for the plugin.
 
-  <img src="plugins-plugin-item-basics.png" width="400px">
+   <img src="plugins-plugin-item-basics.png" width="400px">
 
 4. Enter the plugin ID.
 5. The rest of the form differs depending on the type of the plugin.
@@ -103,7 +103,7 @@ This will generate several code files, including:
 
 2. Click 'Add a plugin types item'. This adds a form section for the plugin type.
 
-  <img src="plugins-plugin-type.png" width="400px">
+   <img src="plugins-plugin-type.png" width="400px">
 
 3. Enter the plugin type ID. This will be used to form the service ID of the plugin manager service.
 4. Subsequent form elements for the label, class name, subdirectory, and so on

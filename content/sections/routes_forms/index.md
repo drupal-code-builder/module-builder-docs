@@ -16,7 +16,7 @@ below).
 
 1. Click the 'Add a Routes item' button. This adds a new section to the form.
 
-  <img src="routes-route-basics.png" width="400px">
+   <img src="routes-route-basics.png" width="400px">
 
 2. Enter the route path. This must begin with a '/'.
 3. Enter the title for your route.
@@ -86,7 +86,7 @@ example, this is how Views defines a route for each page display in a view.
 
 1. Click 'Add a Dynamic route providers item'. This adds a form section.
 
-  <img src="routes-dynamic-route.png" width="400px">
+   <img src="routes-dynamic-route.png" width="400px">
 
 2. Enter the short class name. All route provider classes go in the same
    namespace in your module.
@@ -103,7 +103,7 @@ The forms section lets you add form classes to your module.
 
 1. Click 'Add a Forms item'. This adds a form section.
 
-  <img src="routes-form.png" width="400px">
+   <img src="routes-form.png" width="400px">
 
 2. Enter the short name of the form class. All form classes go in the same
    namespace in your module.

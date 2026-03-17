@@ -11,7 +11,7 @@ The Tests tab lets you add PHPUnit tests.
 1. Click 'Add a PHPUnit test case class item'. This adds a form section for the
    test class.
 
-  <img src="tests-basic.png" width="400px">
+   <img src="tests-basic.png" width="400px">
 
 2. Select the [test
    type](https://www.drupal.org/docs/develop/automated-testing/types-of-tests).
