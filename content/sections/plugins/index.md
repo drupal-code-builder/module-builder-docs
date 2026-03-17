@@ -123,5 +123,7 @@ This will generate several code files, including:
    services' form element has an autocomplete.
 {{% /steps %}}
 
+{{% hint info %}}
 Once you have generated the code files for your plugin type, you can enable the module, re-do code analysis,
 and then Module Builder will be able to generate plugins of this new type.
+{{% /hint %}}
