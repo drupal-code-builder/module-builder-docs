@@ -4,6 +4,10 @@ title = 'Module Builder'
 theme = 'hugo-book'
 sectionPagesMenu = 'main'
 
+# From https://gohugo.io/host-and-deploy/host-on-github-pages/
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
 
 [params]
   custom_css = ["styles.css"]
