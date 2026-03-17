@@ -25,9 +25,11 @@ Module Builder is a Drupal module, and [is installed like any other module](http
 4. Click the 'Update code analysis' button.
 {{% /steps %}}
 
+{{% hint success %}}
 You should run the code analysis again if you have enabled new modules, updated
 modules, or added code to your custom modules, so that Module Builder knows
 about new components in your codebase.
+{{% /hint %}}
 
 After the analysis has run, the page will show a list of all the components it
 has detected. On a typical site, you might have over 300 hooks and over 50

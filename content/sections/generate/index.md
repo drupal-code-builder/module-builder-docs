@@ -47,8 +47,10 @@ repository:
   - UNCOMMITTED CHANGES: The file is under version control, but has local
     changes. Overwriting this will lose the uncommitted changes.
 
+{{% hint danger %}}
 It is **strongly** recommended that you use version control when adding files to
 an existing module.
+{{% /hint %}}
 
 The radio buttons on the right of the table let you preview any of the files in
 the textarea on the right. Note that changes made in this textarea will have no
