@@ -63,7 +63,7 @@ All the form elements after the plugin ID are optional.
 
   <img src="plugins-yaml-plugin.png" width="400px">
 
-3. You can set the plugin to use a deriver. This adds a deriver class which
+1. You can set the plugin to use a deriver. This adds a deriver class which
    [dynamically defines multiple
    plugins](https://www.drupal.org/docs/drupal-apis/plugin-api/plugin-derivatives)
    based on the plugin class. You can specify services to inject into the
