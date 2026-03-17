@@ -118,8 +118,7 @@ This will generate several code files, including:
 4. Subsequent form elements for the label, class name, subdirectory, and so on
    are filled in automatically for you. You can rewrite these if you want.
 5. For an attribute or annotation plugin, you can add properties in addition to
-5. the ID, label, and description
-   which are automatically included.
+   the ID, label, and description which are automatically included.
 6. You can add services to inject into the plugin base class. The 'Injected
    services' form element has an autocomplete.
 {{% /steps %}}
