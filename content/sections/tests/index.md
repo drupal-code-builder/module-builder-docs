@@ -8,6 +8,7 @@ weight = 15
 
 The Tests tab lets you add PHPUnit tests.
 
+{{% steps %}}
 1. Click 'Add a PHPUnit test case class item'. This adds a form section for the
    test class.
 
@@ -58,3 +59,4 @@ The Tests tab lets you add PHPUnit tests.
    to navigate. If your fixture module needs many components, consider creating
    it as a complete Module Builder module, and using the location option to
    write it into your main module.
+{{% /steps %}}

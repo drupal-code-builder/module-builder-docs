@@ -16,6 +16,7 @@ created by site editors. They can have admin-created fields and revisions.
 Nodes, taxonomy terms, media, path aliases, and users are all content entity
 types.
 
+{{% steps %}}
 1. In the Content entity types form section, click 'Add Content entity type'.
    This adds a form section for the entity type.
 
@@ -102,6 +103,7 @@ types.
    - There are some handler types that all entity types have: Drupal Entity API
      will use a generic handler class if none is specified. In this case, the
      only option is whether to add a custom handler class or not.
+{{% /steps %}}
 
 ## Config entity types
 

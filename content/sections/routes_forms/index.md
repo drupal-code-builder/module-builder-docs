@@ -14,6 +14,7 @@ your site.
 The routes form section lets you add route items. (For dynamic routes, see
 below).
 
+{{% steps %}}
 1. Click the 'Add a Routes item' button. This adds a new section to the form.
 
    <img src="routes-route-basics.png" width="400px">
@@ -77,6 +78,7 @@ below).
    - A method in the route controller.
    - A method in a custom class
    - An existing static method on a class.
+{{% /steps %}}
 
 ## Dynamic route providers
 
@@ -84,6 +86,7 @@ Dynamic route providers are PHP classes which define any number of routes. This
 allows routes to depend on other parts of Drupal, such as config entities. For
 example, this is how Views defines a route for each page display in a view.
 
+{{% steps %}}
 1. Click 'Add a Dynamic route providers item'. This adds a form section.
 
    <img src="routes-dynamic-route.png" width="400px">
@@ -91,6 +94,7 @@ example, this is how Views defines a route for each page display in a view.
 2. Enter the short class name. All route provider classes go in the same
    namespace in your module.
 3. You can specify services to inject into the route provider class.
+{{% /steps %}}
 
 ## Admin settings form
 
@@ -101,6 +105,7 @@ general forms: see the next section.
 
 The forms section lets you add form classes to your module.
 
+{{% steps %}}
 1. Click 'Add a Forms item'. This adds a form section.
 
    <img src="routes-form.png" width="400px">
@@ -122,3 +127,4 @@ The forms section lets you add form classes to your module.
    1. Click 'Add a Form route'. This adds a form section for the route: see the
    'Routes' section above for more on this.
 3. You can specify services to inject into the form class.
+{{% /steps %}}

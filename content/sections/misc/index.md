@@ -21,6 +21,7 @@ The Miscellaneous tab lets you various components, including:
 Services are classes which provide some sort of API, and [which are obtained from
 the service container](https://www.drupal.org/docs/drupal-apis/services-and-dependency-injection/services-and-dependency-injection-in-drupal).
 
+{{% steps %}}
 1. Click 'Add a services item'. This adds a form section for the service.
 
    <img src="misc-services.png" width="400px">
@@ -36,6 +37,7 @@ the service container](https://www.drupal.org/docs/drupal-apis/services-and-depe
    allows you to override the existing service's behaviour.
 5. You can add services to inject into the service class. The 'Injected
    services' form element has an autocomplete.
+{{% /steps %}}
 
 ## Event subscribers
 
@@ -54,6 +56,7 @@ The generated event subscriber class will have a method for each selected event.
 The events form section lets you define events that you can trigger in module
 code, and listen to with subscribers.
 
+{{% steps %}}
 1. Click 'Add an events item'. This adds a new row to the table.
 
    <img src="misc-events.png" width="400px">
@@ -61,6 +64,7 @@ code, and listen to with subscribers.
 2. Enter a name for the event. This should be a string in snake case. The
    generated code will automatically add the name of the module as a prefix.
 3. Add a description for the event.
+{{% /steps %}}
 
 ## Service provider
 
@@ -72,6 +76,7 @@ allows services to be defined dynamically.
 [Permissions](https://www.drupal.org/docs/roles-and-permissions) allows your
 module to control which users have access to particular functions or pages.
 
+{{% steps %}}
 1. Click 'Add a permissions item'. This adds a form section for the permission.
 
    <img src="misc-permissions.png" width="400px">
@@ -84,6 +89,7 @@ module to control which users have access to particular functions or pages.
    in the permissions UI.
 5. If your permission should show a warning in the permissions UI because of
    what it grants access to, select the 'Access warning' checkbox.
+{{% /steps %}}
 
 ## Theme hooks
 
@@ -102,6 +108,7 @@ Each theme hook will add:
 [Libraries](https://www.drupal.org/docs/develop/creating-modules/adding-assets-css-js-to-a-drupal-module-via-librariesyml) are a way of attaching JavaScript and CSS files to a page. Each
 library can have one or more of both types of file.
 
+{{% steps %}}
 1. Click 'Add a Libraries item'. This adds a form section for the library.
 
    <img src="misc-libraries.png" width="400px">
@@ -124,12 +131,14 @@ library can have one or more of both types of file.
    1. Enter the filename.
 
 6. Enter any dependencies the library has.
+{{% /steps %}}
 
 ## Drush commands
 
 [Drush](https://www.drush.org/) is a command-line tool for managing a Drupal
 site. It can be extended with custom commands.
 
+{{% steps %}}
 1. Click 'Add a Drush commands item'. This adds a form section for the command.
 
    <img src="misc-drush.png" width="400px">
@@ -144,4 +153,5 @@ site. It can be extended with custom commands.
 6. Optionally, enter the names of the command's options, and a default value.
    These are values that are specified with command line options, for example:
    `drush mycommand --option1=bar --option2=foo`.
+{{% /steps %}}
 

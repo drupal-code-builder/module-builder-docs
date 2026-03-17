@@ -12,6 +12,7 @@ The Plugins tab lets you add plugins and plugin types.
 
 The plugins section of the form lets you add plugins.
 
+{{% steps %}}
 1. In the Plugin type form element, start typing part of the plugin type name to
    filter the autocomplete dropdown. You can click on the documentation link for
    a plugin type to read more about it on the Drupal API site.
@@ -25,6 +26,7 @@ The plugins section of the form lets you add plugins.
 
 4. Enter the plugin ID.
 5. The rest of the form differs depending on the type of the plugin.
+{{% /steps %}}
 
 ### Attribute or annotation-based plugins
 
@@ -36,6 +38,7 @@ All the form elements after the plugin ID are optional.
 
   <img src="plugins-class-plugin.png" width="400px">
 
+{{% steps %}}
 1. The class name form element will fill in automatically based on the plugin ID you enter.
    You can change this if you want.
 2. You can add services to inject into the plugin class. The 'Injected
@@ -47,13 +50,16 @@ All the form elements after the plugin ID are optional.
    deriver class.
 4. You can specify another plugin whose class will be used as the parent of your
    class.
+{{% /steps %}}
 
 You can have your plugin class replace the class of an existing plugin, instead
 of being a new plugin. This will add an implementation of the plugin info alter
 hook to switch the original plugin class with your class. To do this:
 
+{{% steps %}}
 1. Specify the plugin to replace as the 'Parent class plugin ID'
 2. Enable the 'Replace parent plugin' checkbox.
+{{% /steps %}}
 
 ### YAML plugins
 
@@ -63,6 +69,7 @@ All the form elements after the plugin ID are optional.
 
   <img src="plugins-yaml-plugin.png" width="400px">
 
+{{% steps %}}
 1. You can set the plugin to use a deriver. This adds a deriver class which
    [dynamically defines multiple
    plugins](https://www.drupal.org/docs/drupal-apis/plugin-api/plugin-derivatives)
@@ -73,6 +80,7 @@ All the form elements after the plugin ID are optional.
    definition.
 3. If using a custom plugin class, you can add services to inject into it. The
    'Injected services' form element has an autocomplete.
+{{% /steps %}}
 
 ## Plugin types
 
@@ -85,6 +93,7 @@ This will generate several code files, including:
 - A plugin manager service class.
 - An api.php file documenting the plugin type alter hook.
 
+{{% steps %}}
 1. Select the plugin discovery type. This can be one of:
 
    Attribute-based plugins
@@ -113,6 +122,7 @@ This will generate several code files, including:
    which are automatically included.
 6. You can add services to inject into the plugin base class. The 'Injected
    services' form element has an autocomplete.
+{{% /steps %}}
 
 Once you have generated the code files for your plugin type, you can enable the module, re-do code analysis,
 and then Module Builder will be able to generate plugins of this new type.

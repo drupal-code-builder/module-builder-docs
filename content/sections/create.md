@@ -8,6 +8,7 @@ weight = 2
 
 ## New module
 
+{{% steps %}}
 1. Go to Administration › Configuration › Development › Module Builder.
 
 2. Click the 'Add module' button.
@@ -25,12 +26,14 @@ weight = 2
 
 6. When you've entered all your options, go to the 'Generate' tab to see the
    module code and write the files.
+{{% /steps %}}
 
 ## Adopt a module
 
 Instead of creating a new module from scratch, you can adopt an existing module.
 This allows you to add to existing code.
 
+{{% steps %}}
 1. Go to Administration › Configuration › Development › Module Builder.
 
 2. Click the 'Adopt existing module' button.
@@ -44,3 +47,4 @@ This allows you to add to existing code.
    - Click 'Adopt module and adopt components' to create a new module config
      entity and go to the Adopt tab, where you can adopt individual components
      of the module on disk.
+{{% /steps %}}

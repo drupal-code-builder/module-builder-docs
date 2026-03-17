@@ -8,6 +8,7 @@ weight = 1
 
 Module Builder is a Drupal module, and [is installed like any other module](https://www.drupal.org/docs/extending-drupal/installing-modules):
 
+{{% steps %}}
 1. Install Module Builder using Composer:
 
    ```
@@ -22,6 +23,7 @@ Module Builder is a Drupal module, and [is installed like any other module](http
    <img src="screenshot-analysis-form.png" width="400px">
 
 4. Click the 'Update code analysis' button.
+{{% /steps %}}
 
 You should run the code analysis again if you have enabled new modules, updated
 modules, or added code to your custom modules, so that Module Builder knows
