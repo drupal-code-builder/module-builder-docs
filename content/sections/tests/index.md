@@ -54,9 +54,10 @@ The Tests tab lets you add PHPUnit tests.
 5. Optionally, enter services that your test needs to mock.
 6. Optionally, select traits to use in your test's class. These provide various
    helper methods for setting up your test site.
-7. You can add a fixture module for your test to install. **WARNING**: this adds a
-   form section which consists of ALL the module options, and can be quite hard
-   to navigate. If your fixture module needs many components, consider creating
-   it as a complete Module Builder module, and using the location option to
-   write it into your main module.
+7. You can add a fixture module for your test to install.
+   > [!WARNING]
+   > **WARNING**: This adds a form section which consists of ALL the module
+   > options, and can be quite hard to navigate. If your fixture module needs
+   > many components, consider creating it as a complete Module Builder module,
+   > and using the location option to write it into your main module.
 {{% /steps %}}
