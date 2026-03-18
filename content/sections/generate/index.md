@@ -23,7 +23,7 @@ is safe to write a particular file.
 
 Filename
 : This is the filename and relative path within the module. For example, a Block
-plugin file would show as `src/Plugin/Block/MyBlock`.
+plugin file would show as `src/Plugin/Block/MyBlock.php`.
 
 Merge status
 : This shows whether the file has been merged with an existing one.
