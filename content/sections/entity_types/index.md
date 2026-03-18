@@ -109,7 +109,7 @@ types.
 
 Config entity types are stored in the configuration system, and are typically
 created by developers and site administrators. Node types, taxonomy
-vocabularies, views, image styles, and content formats are all content entity
+vocabularies, views, image styles, and content formats are all config entity
 types.
 
 The config entity type form section is broadly similar to the content entity
