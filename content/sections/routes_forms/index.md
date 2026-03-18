@@ -76,7 +76,8 @@ below).
    : Access to your route is controlled by a custom callback which returns an
    AccessResult. You can select one of the following options:
    - A method in the route controller.
-   - A method in a custom class.
+   - A method in a custom class. The specified class and method will be
+     generated.
    - An existing static method on a class.
 {{% /steps %}}
 
