@@ -72,6 +72,13 @@ types.
    'Taxonomy term' entity types. Clicking the 'Add Bundle config entity type'
    will add a form section for this entity type. It will be similar to the form
    section for config entity types: see below.
+   > [!TIP]
+   > There are other ways of defining bundles for your entity type:
+   > - Implement `hook_entity_bundle_info()` to define the list of bundles in
+   >   PHP code.
+   > - Use [Entity module](https://www.drupal.org/project/entity)'s helpers for
+   >   defining an entity type's bundles automatically from a plugin type.
+
 6. You can add base fields for your entity type. Note that the 'Entity
    functionality options' above will automatically add the relevant base
    fields such as 'owner', 'changed', and so on.
