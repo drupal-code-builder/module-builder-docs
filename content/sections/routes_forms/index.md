@@ -82,9 +82,11 @@ below).
 
 ## Dynamic route providers
 
-Dynamic route providers are PHP classes which define any number of routes. This
-allows routes to depend on other parts of Drupal, such as config entities. For
-example, this is how Views defines a route for each page display in a view.
+[Dynamic route
+providers](https://www.drupal.org/docs/drupal-apis/routing-system/providing-dynamic-routes)
+are PHP classes which define any number of routes. This allows routes to depend
+on other parts of Drupal, such as config entities. For example, this is how
+Views defines a route for each page display in a view.
 
 {{% steps %}}
 1. Click 'Add a Dynamic route providers item'. This adds a form section.
