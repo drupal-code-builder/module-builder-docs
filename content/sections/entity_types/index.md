@@ -11,8 +11,8 @@ types](https://www.drupal.org/docs/drupal-apis/entity-api/entity-types).
 
 ## Content entity types
 
-Content entity types are stored in the site's database, and are typically
-created by site editors. They can have admin-created fields and revisions.
+Content entities are stored in the site's database, and are typically created by
+site editors. They can have admin-created fields and revisions.
 Nodes, taxonomy terms, media, path aliases, and users are all content entity
 types.
 
@@ -107,7 +107,7 @@ types.
 
 ## Config entity types
 
-Config entity types are stored in the configuration system, and are typically
+Config entities are stored in the configuration system, and are typically
 created by developers and site administrators. Node types, taxonomy
 vocabularies, views, image styles, and content formats are all config entity
 types.
