@@ -43,8 +43,9 @@ below).
       - Use one of the forms defined further down on this page: use the syntax '!N'
         to use the Nth form, for example, '!1'.
 
-      Alternatively, you can define the form in the 'Forms' section below, and
-      add the route for the form within that section.
+      > [!TIP]
+      > Alternatively, you can define the form in the 'Forms' section below, and
+      > add the route for the form within that section.
 
       Entity view display
       : The route shows an entity. You can select the type of the entity to show,
