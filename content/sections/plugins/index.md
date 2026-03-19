@@ -19,6 +19,14 @@ The plugins section of the form lets you add plugins.
 
    <img src="plugins-plugin-id-filter.png" width="400px">
 
+   > [!TIP]
+   > The plugin type names are obtained from the service names of the plugin
+   > manager for each plugin type.
+   >
+   > If you have [Plugin module](https://www.drupal.org/project/plugin)
+   > installed, the plugin type labels it provides are used instead of plugin
+   > type machine names.
+
 2. Select one of the plugin types.
 3. Click 'Add a plugins item'. This adds a form section for the plugin.
 
