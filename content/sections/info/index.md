@@ -14,5 +14,7 @@ modules are written to `modules/custom`, but you can specify that the module is
 a submodule inside another module, or a test module in another module's test
 code.
 
+<img src="info-location.png" width="800px">
+
 For more information on the info properties, see [the info file
 documentation](https://www.drupal.org/docs/develop/creating-modules/let-drupal-know-about-your-module-with-an-infoyml-file).
