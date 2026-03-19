@@ -38,9 +38,10 @@ backwards-compatible with older versions of Drupal.
    <img src="hooks-table-plain-hook.png" width="800px">
 
 4. If your hook uses token replacements in its name (such as
-   `hook_form_FORM_ID_alter`, or `hook_ENTITY_TYPE_access`), its table row will
+   `hook_form_FORM_ID_alter`, or `hook_ENTITY_TYPE_insert`), its table row will
    show a text box for the value. So for example, if you want to implement
-   `hook_node_access`, enter 'node'.
+   `hook_node_insert`, choose 'hook_ENTITY_TYPE_insert' in the list, and then
+   enter 'node'.
 
    <img src="hooks-table-tokenised-hook.png" width="800px">
 
